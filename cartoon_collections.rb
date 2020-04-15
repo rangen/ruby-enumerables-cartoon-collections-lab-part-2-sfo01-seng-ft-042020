@@ -3,7 +3,7 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map {|item| "#{item[0].upcase + item[1..]} !"}
+  planeteer_calls.map {|item| "#{item[0].upcase + item[1..]}!"}
 end
 
 def long_planeteer_calls(planeteer_calls)
